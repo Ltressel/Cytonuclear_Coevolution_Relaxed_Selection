@@ -1,3 +1,5 @@
+# Evolutionary_Rate_Covariation_Analyses
+
 This directory contains scripts and methods for performing evolutionary rate covariation (ERC) analyses. 
 
 ### Contents
