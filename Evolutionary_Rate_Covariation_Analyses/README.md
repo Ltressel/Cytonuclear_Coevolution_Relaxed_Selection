@@ -3,22 +3,11 @@
 This directory contains scripts and methods for performing evolutionary rate covariation (ERC) analyses. 
 
 ### Contents
-- ```run_blastp.sh```: Script for running a BLASTp search to identify plastid-targeted proteins.
 - ```run_erc_analysis.R```: R script for performing the evolutionary rate covariation (ERC) analysis using Spearman rank correlations and bootstrap resampling.
 - ```visualize_erc_results.R```: R script for visualizing the bootstrapped correlations between mt and nuclear-encoded gene groups.
 
 ### Step-by-Step Breakdown
-**1. Run BLASTp to Identify Plastid-Targeted Proteins**
-
-**Script:** ```run_blastp.sh```
-
-**Tool:** [BLAST+](https://blast.ncbi.nlm.nih.gov/doc/blast-help/downloadblastdata.html#downloadblastdata)
-
-**Description:** This script runs BLASTp against a non-redundant protein database to categorize proteins as plastid-targeted or non-targeted, based on the annotation of the obtained hits.
-
-**Usage:** ```bash run_blastp.sh```
-
-**2. Perform ERC Analysis Using Spearman Rank Correlation and Bootstrap Resampling**
+**1. Perform ERC Analysis Using Spearman Rank Correlation and Bootstrap Resampling**
 
 **Script:** ```run_erc_analysis.R```
 
@@ -28,7 +17,7 @@ This directory contains scripts and methods for performing evolutionary rate cov
 
 **Usage:** ```Rscript run_erc_analysis.R```
 
-**3. Visualize ERC Analysis Results**
+**2. Visualize ERC Analysis Results**
 
 **Script:** ```visualize_erc_results.R```
 
