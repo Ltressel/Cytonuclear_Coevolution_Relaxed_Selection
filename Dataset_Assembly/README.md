@@ -55,7 +55,7 @@ This directory contains scripts and methods for assembling the datasets used in 
 
 **Tools:** [BLAST v.2.12.0+](https://blast.ncbi.nlm.nih.gov/Blast.cgi), [MAFFT v.7.490](https://mafft.cbrc.jp/alignment/software/source.html)
 
-**Description:** Extracts ribosomal protein genes (CpRP, NuCpRP) from transcriptomes and plastomes, and aligns sequences.
+**Description:** Extracts genes from transcriptomes and mitogenomes, and aligns sequences.
 
 **Usage:** ```bash extract_align_genes.sh```
 
