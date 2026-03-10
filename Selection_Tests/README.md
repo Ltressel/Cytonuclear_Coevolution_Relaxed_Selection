@@ -28,12 +28,3 @@ This directory contains scripts and methods for detecting positive and relaxed s
 
 **Usage:** ```bash run_relax_hyphy.sh```
 
-**3. Visualize LRT p-values**
-
-**Script:** ```p_values_for_LRTs.py```
-
-**Tool:** Python (with required libraries such as ```matplotlib```, ```seaborn```)
-
-**Description:** This Python script visualizes the p-values from the LRT results for the positive and relaxed selection tests.
-
-**Usage:** ```python p_values_for_LRTs.py```
